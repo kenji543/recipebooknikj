@@ -53,4 +53,3 @@ The application will be available at `http://localhost:3000`.
 ## 📜 License
 
 This project is built for the "Digital Cookbook" assignment. See `package.json` for dependency licenses.
-

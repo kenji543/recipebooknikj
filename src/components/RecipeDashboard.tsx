@@ -77,7 +77,7 @@ export default function RecipeDashboard() {
           <p className="text-natural-muted font-serif italic text-xl">Your culinary binder is empty. Start by adding a signature dish.</p>
         </div>
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 xl:gap-8">
           {recipes.map((recipe, index) => (
             <motion.div
               key={recipe.id}
