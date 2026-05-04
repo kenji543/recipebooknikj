@@ -1,0 +1,6 @@
+{
+  "name": "Digital Cookbook",
+  "description": "A clean, responsive web application for chefs to manage recipes, ingredients, and photos with local storage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

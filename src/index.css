@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-natural-bg: #FDFCFB;
+  --color-natural-text: #2D2926;
+  --color-natural-muted: #8E8A86;
+  --color-natural-border: #E6E2DF;
+  --color-natural-accent: #5A5A40;
+  --color-natural-highlight: #D47B58;
+  --color-natural-tag-bg: #FDF5F2;
+}
+
+@layer base {
+  body {
+    @apply bg-natural-bg text-natural-text font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif italic;
+  }
+}
+
